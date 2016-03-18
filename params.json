@@ -1,1 +1,7 @@
-{"name":"D3jscharts-bar","tagline":"Data Visualization using D3.js","body":"# D3jsCharts-bar\r\nData Visualization using D3.js\r\n#Description\r\nA fully responsive Bar graph which can take single array of random data and displays a beautiful bar gragh \r\nwith a time-line on the x axis and data on the y axis.\r\n\r\n#Dependencies:\r\nD3.js : link - http://d3js.org/\r\n","google":"","note":"Don't delete this file! It's used internally to help with page regeneration."}
+{
+  "name": "D3jscharts-bar",
+  "tagline": "Data Visualization using D3.js",
+  "body": "## D3jsCharts-bar\r\nData Visualization using D3.js\r\n## Installation\r\nclone this repo to your machine. cd into the root folder and run a simple http server or if you hacve python installed run this cmd\r\npython -m SimpleHTTPServer and open http://localhost:8000/ in your brower\r\n\r\n## Description\r\nA fully responsive Bar graph which can take single array of random data and displays a beautiful bar gragh \r\nwith a time-line on the x axis and data on the y axis.\r\n\r\n## Dependencies:\r\nD3.js : link - http://d3js.org/\r\n\r\n\r\n",
+  "google": "",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}

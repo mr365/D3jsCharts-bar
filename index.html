@@ -1,55 +1,88 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
+    <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>D3jscharts-bar by mr365</title>
+    <meta name="viewport" content="width=640">
 
-    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/core.css" media="screen">
+    <link rel="stylesheet" href="stylesheets/mobile.css" media="handheld, only screen and (max-device-width:640px)">
     <link rel="stylesheet" href="stylesheets/github-light.css">
-    <meta name="viewport" content="width=device-width">
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+
+    <script type="text/javascript" src="javascripts/modernizr.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="javascripts/headsmart.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $('#main_content').headsmart()
+      })
+    </script>
+    <title>D3jscharts-bar by mr365</title>
   </head>
+
   <body>
-    <div class="wrapper">
+    <a id="forkme_banner" href="https://github.com/mr365/D3jsCharts-bar">View on GitHub</a>
+    <div class="shell">
+
       <header>
-        <h1>D3jscharts-bar</h1>
-        <p>Data Visualization using D3.js</p>
-
-        <p class="view"><a href="https://github.com/mr365/D3jsCharts-bar">View the Project on GitHub <small>mr365/D3jsCharts-bar</small></a></p>
-
-
-        <ul>
-          <li><a href="https://github.com/mr365/D3jsCharts-bar/zipball/master">Download <strong>ZIP File</strong></a></li>
-          <li><a href="https://github.com/mr365/D3jsCharts-bar/tarball/master">Download <strong>TAR Ball</strong></a></li>
-          <li><a href="https://github.com/mr365/D3jsCharts-bar">View On <strong>GitHub</strong></a></li>
-        </ul>
+        <span class="ribbon-outer">
+          <span class="ribbon-inner">
+            <h1>D3jscharts-bar</h1>
+            <h2>Data Visualization using D3.js</h2>
+          </span>
+          <span class="left-tail"></span>
+          <span class="right-tail"></span>
+        </span>
       </header>
-      <section>
-        <h1>
-<a id="d3jscharts-bar" class="anchor" href="#d3jscharts-bar" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>D3jsCharts-bar</h1>
+
+      <section id="downloads">
+        <span class="inner">
+          <a href="https://github.com/mr365/D3jsCharts-bar/zipball/master" class="zip"><em>download</em> .ZIP</a><a href="https://github.com/mr365/D3jsCharts-bar/tarball/master" class="tgz"><em>download</em> .TGZ</a>
+        </span>
+      </section>
+
+
+      <span class="banner-fix"></span>
+
+
+      <section id="main_content">
+        <h2>
+<a id="d3jscharts-bar" class="anchor" href="#d3jscharts-bar" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>D3jsCharts-bar</h2>
 
 <p>Data Visualization using D3.js</p>
 
-<h1>
-<a id="description" class="anchor" href="#description" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Description</h1>
+<h2>
+<a id="installation" class="anchor" href="#installation" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Installation</h2>
+
+<p>clone this repo to your machine. cd into the root folder and run a simple http server or if you hacve python installed run this cmd
+python -m SimpleHTTPServer and open http://localhost:8000/ in your brower</p>
+
+<h2>
+<a id="description" class="anchor" href="#description" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Description</h2>
 
 <p>A fully responsive Bar graph which can take single array of random data and displays a beautiful bar gragh 
 with a time-line on the x axis and data on the y axis.</p>
 
-<h1>
-<a id="dependencies" class="anchor" href="#dependencies" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Dependencies:</h1>
+<h2>
+<a id="dependencies" class="anchor" href="#dependencies" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Dependencies:</h2>
 
 <p>D3.js : link - <a href="http://d3js.org/">http://d3js.org/</a></p>
       </section>
+
       <footer>
-        <p>This project is maintained by <a href="https://github.com/mr365">mr365</a></p>
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+        <span class="ribbon-outer">
+          <span class="ribbon-inner">
+            <p>this project by <a href="https://github.com/mr365">mr365</a> can be found on <a href="https://github.com/mr365/D3jsCharts-bar">GitHub</a></p>
+          </span>
+          <span class="left-tail"></span>
+          <span class="right-tail"></span>
+        </span>
+        <p>Generated with <a href="https://pages.github.com">GitHub Pages</a> using Merlot</p>
+        <span class="octocat"></span>
       </footer>
+
     </div>
-    <script src="javascripts/scale.fix.js"></script>
+
     
   </body>
 </html>
